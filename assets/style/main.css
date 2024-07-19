@@ -43,3 +43,26 @@ img {
   width: 100%;
 }
 /* 共通 ここまで */
+
+/* #header ここから */
+#header {
+  position: sticky;
+  width: calc(100% - 1.625rem);
+  height: 3.75rem;
+  margin:  0 auto;
+  background-color: var(--color-white);
+}
+#header .header__container {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+}
+#header .header__container img.pc_only {
+  display: none;
+}
+#header .header__container img.sp_only {
+  display: block;
+  width: 4.5rem;
+  margin-top: 0.6875rem;
+}
+/* #header ここまで */
