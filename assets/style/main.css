@@ -1,0 +1,47 @@
+/* 共通 ここから */
+:root {
+  --color-white: #FFFFFF;
+  --color-pink: #FA7DA3;
+  --color-dark-gray: #333333;
+  --color-green: #49C43D;
+  --color-light-pink: #FDF0F5;
+  --color-light-red: #FFD2D2;
+  --color-deep-gray: #433E3F;
+  --color-transparent-white: #FFFFFF00;
+  --color-medium-gray: #666666;
+  --color-light-blue: #50BFFF;
+  --color-dark-brown: #4D2C1C;
+  --color-transparent-gray: #66666600;
+  --color-deep-brown: #4D2B1B;
+  --color-light-yellow: #FFFEDD;
+  --color-semi-transparent-black: #00000040;
+  --color-bright-yellow: #FFFD7A;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  width: 100%;
+  font-size: 100%;
+}
+body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.875rem;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: var(--color-dark-gray);
+}
+a {
+  text-decoration:none;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+/* 共通 ここまで */
