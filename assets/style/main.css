@@ -54,8 +54,7 @@ img {
 }
 #header .header__container {
   display: flex;
-  justify-content: space-between;
-  align-self: center;
+  gap: 0;
 }
 #header .header__container img.pc_only {
   display: none;
