@@ -138,13 +138,12 @@ img {
   height: 0.6238rem;
   margin-left: 0.1875rem;
 }
-@media(min-width:768px) {
+@media(min-width:1025px) {
   #header .header__container {
     width: calc(100% - 26.125rem);
     height: 5.75rem;
     margin: 0 auto;
-    margin-left: 13rem;
-    margin-right: 13.125rem;
+    max-width: 1022px;
   }
   #header .header__container img.sp_only {
     display: none;
@@ -181,6 +180,7 @@ img {
   #header .header__link-contact-arrow {
     width: 0.605rem;
     height: 1.0137rem;
+    margin-left: 0.5rem;
   }
   #header .header__link-reservation {
     font-size: 1.32rem;
@@ -198,7 +198,73 @@ img {
   #header .header__link-reservation-arrow {
     width: 0.605rem;
     height: 1.0137rem;
+    margin: 0;
+    margin-left: 0.25rem;
   }
 }
 
+@media(min-width:768px) and (max-width:1024px) {
+  #header .header__container {
+    width: calc(100% - 26.125rem);
+    height: 5.75rem;
+    margin: 0 auto;
+    max-width: 1022px;
+  }
+  #header .header__container img.sp_only {
+    display: none;
+  }
+  #header .header__container img.pc_only {
+    display: block;
+    width: 6.0038rem;
+    height: 3.2819rem;
+    margin-top: 1.1875rem;
+  }
+  #header .header__link-contact-container {
+    width: 11.8187rem;
+    height: 3.1475rem;
+    border-radius: 1.5737rem;
+    margin: 0;
+    margin-left: auto;
+    margin-top: 1.3125rem;
+  }
+  #header .header__link-reservation-container {
+    width: 18.4681rem;
+    height: 3.1475rem;
+    border-radius: 1.5737rem;
+    margin: 0;
+    margin-left: 1.3125rem;
+    margin-top: 1.3125rem;
+  }
+  #header .header__link-contact {
+    font-size: 1.32rem;
+    letter-spacing: 0;
+    margin: 0;
+    margin-left: 1.5625rem;
+    margin-top: 0.5rem;
+  }
+  #header .header__link-contact-arrow {
+    width: 0.605rem;
+    height: 1.0137rem;
+    margin-left: 0.5rem;
+  }
+  #header .header__link-reservation {
+    font-size: 1.32rem;
+    letter-spacing: 0;
+    margin: 0;
+    margin-left: 1.5rem;
+    margin-top: 0.5rem;
+  }
+  #header .header__link-reservation .header__link-small-text {
+    font-size: 1.1169rem;
+    letter-spacing: 0;
+    margin: 0;
+    margin-top: 0.25rem;
+  }
+  #header .header__link-reservation-arrow {
+    width: 0.605rem;
+    height: 1.0137rem;
+    margin: 0;
+    margin-left: 0.25rem;
+  }
+}
 /* #header ここまで */
