@@ -104,11 +104,11 @@ img {
   margin-top: 0.375rem;
 
 }
-#header .sp_only.header__link-contact-arrow {
-  margin-left: 0.4375rem;
-  margin-top: 0.375rem;
+#header .header__link-contact-arrow {
+  width: 0.3762rem;
+  height: 0.6238rem;
+  margin-left: 0.1875rem;
 }
-
 #header .header__link-reservation {
   display: flex;
   gap: 0;
@@ -126,9 +126,10 @@ img {
  margin-top: 3px;
  white-space: nowrap;
 }
-#header .sp_only.header__link-reservation-arrow {
-  margin-left: 0.4375rem;
-  margin-top: 0.375rem;
+#header .header__link-reservation-arrow {
+  width: 0.3762rem;
+  height: 0.6238rem;
+  margin-left: 0.1875rem;
 }
 
 /* #header ここまで */
