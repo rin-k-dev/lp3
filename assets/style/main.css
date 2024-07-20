@@ -356,5 +356,12 @@ img {
   font-weight: 400;
   color: var(--color-white);
 }
-
+#main-visual .main-visual__subtitle-content-yenpermonth {
+  font-size: 0.5625rem;
+  font-weight: 100;
+  line-height: normal;
+  color: var(--color-white);
+  margin-left: -3%;
+  margin-top: 0.0625rem;
+}
 /* #main-visual ここまで */
