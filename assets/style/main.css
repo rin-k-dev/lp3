@@ -448,5 +448,14 @@ img {
     width: 26.4513rem;
     height: 13.875rem;
   }
+  #main-visual .main-visual__text-now-only {
+    width: 6.61rem;
+    height: 3.2281rem;
+    font-size: 1.8281rem;
+    margin: 0;
+    margin-left: 3.625rem;
+    margin-top: 2.75rem;
+    padding-left: 0.625rem;
+  }
 }
 /* #main-visual ここまで */
