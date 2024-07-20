@@ -323,6 +323,7 @@ img {
   background-color: var(--color-white);
   color: var(--color-pink);
   font-size: 0.8125rem;
+  font-weight: 100;
   line-height: normal;
   display: block;
   width: 2.9375rem;
@@ -330,6 +331,30 @@ img {
   margin-left: 1.625rem;
   margin-top: 1.5625rem;
   padding-left: 0.25rem;
+}
+#main-visual .main-visual__text-first-month {
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: normal;
+  color: var(--color-white);
+  display: block;
+  width: 8.625rem;
+  margin-left: 1.6875rem;
+  margin-top: -3.625rem;
+}
+#main-visual .main-visual__text-zero {
+  font-size: 4.75rem;
+  font-weight: 100;
+  line-height: normal;
+  color: var(--color-bright-yellow);
+  display: inline-block;
+  margin-left: 0.8125rem;
+}
+#main-visual .main-visual__text-yen {
+  font-size: 2.25rem;
+  font-weight: 100;
+  line-height: normal;
+  color: var(--color-bright-yellow);
 }
 #main-visual .main-visual__photo-and-text-container {
   width: 100%;
