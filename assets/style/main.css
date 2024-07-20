@@ -424,6 +424,8 @@ img {
     margin: 0 auto;
     padding-left: 3.4375rem;
     padding-right: 1.9375rem;
+    position: relative;
+    z-index: 10;
   }
   #main-visual .main-visual__title-full-body-hair-removal {
     width: 30.5rem;
@@ -474,6 +476,28 @@ img {
   #main-visual .main-visual__text-yen {
     font-size: 81px;
     font-weight: 600;
+  }
+  #main-visual .sp_only.main-visual__woman-photo {
+    display: none;
+  }
+  #main-visual .pc_only.main-visual__woman-photo {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  #main-visual .main-visual__photo-and-text-container {
+    width: calc(100% - 27.625rem);
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+  }
+  #main-visual .main-visual__photo-and-text-container figure {
+    display: block;
+    width: 30.4375rem;
+    height: 31.5625rem;
+    margin-top: -7.0625rem;
+    margin-left: -0.625rem;
   }
 }
 /* #main-visual ここまで */
