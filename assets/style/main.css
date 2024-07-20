@@ -457,5 +457,23 @@ img {
     margin-top: 2.75rem;
     padding-left: 0.625rem;
   }
+  #main-visual .main-visual__text-first-month {
+    width: 19.4219rem;
+    white-space: nowrap;
+    font-size: 3.375rem;
+    margin: 0;
+    margin-left: 3.8125rem;
+    margin-top: -7.8125rem;
+  }
+  #main-visual .main-visual__text-zero {
+    margin: 0;
+    margin-left: 1.5rem;
+    font-size: 10.6875rem;
+    font-weight: 600;
+  }
+  #main-visual .main-visual__text-yen {
+    font-size: 81px;
+    font-weight: 600;
+  }
 }
 /* #main-visual ここまで */
