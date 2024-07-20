@@ -398,4 +398,21 @@ img {
 #main-visual .pc_only.main-visual__woman-photo {
   display: none;
 }
+#main-visual .main-visual__text-container-unlimited-attendance {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.4375rem;
+}
+#main-visual .main-visual__text-container-unlimited-attendance p {
+  display: block;
+  width: 8.3125rem;
+  height: 2.1875rem;
+  font-size: 1.125rem;
+  font-weight: 100;
+  border: 0.0625rem solid var(--color-white);
+  color: var(--color-white);
+  text-align: center;
+  padding-top: 0.25rem;
+}
 /* #main-visual ここまで */
