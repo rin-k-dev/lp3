@@ -66,6 +66,9 @@ img {
   height: 3.75rem;
   margin:  0 auto;
 }
+#header .header__container a {
+  cursor: pointer;
+}
 #header .header__container img.pc_only {
   display: none;
 }
