@@ -291,18 +291,24 @@ img {
   font-size: 2.625rem;
   font-weight: 100;
   line-height: normal;
+  letter-spacing: 0;
   color: var(--color-white);
   display: block;
-  width: 10.25rem;
+  width: 10.5rem;
   text-align: center;
   white-space: nowrap;
+  margin-top: 0.5rem;
 }
 #main-visual .main-visual__face-and-vio {
   font-size: 1.125rem;
   font-weight: 100;
   line-height: normal;
+  letter-spacing: 0;
   color: var(--color-white);
   display: block;
+  width: 6.875rem;
+  text-align: center;
+  margin-left: 1.625rem;
 }
 #main-visual .main-visual__text-container {
   width: 11.75rem;
