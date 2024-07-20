@@ -268,5 +268,13 @@ img {
 /* #header ここまで */
 
 /* #main-visual ここから */
-
+#main-visual .main-visual__container {
+  width: 100%;
+  height: 19.6875rem;
+  background-color: var(--color-pink);
+}
+#main-visual .main-visual__woman-photo-container {
+  padding-top: 6.125rem;
+  padding-left: 3px;
+}
 /* #main-visual ここまで */
