@@ -285,7 +285,7 @@ img {
   padding-right: 0;
   display: flex;
   gap: 0;
-  justify-content: space-between;
+  justify-content: center;
 }
 #main-visual .main-visual__title-full-body-hair-removal {
   font-size: 2.625rem;
@@ -382,7 +382,7 @@ img {
   margin: 0 auto;
   display: flex;
   gap: 0;
-  justify-content: space-between;
+  justify-content: center;
 }
 #main-visual .main-visual__photo-and-text-container figure {
   display: block;
