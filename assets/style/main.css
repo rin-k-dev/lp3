@@ -306,7 +306,7 @@ img {
 }
 #main-visual .main-visual__subtitle-container-now {
   width: 48.2%;
-  height: 6.6875rem;
+  height: 6.875rem;
   display: block;
   background-color: var(--color-white-opacity);
   box-shadow: 0.25rem 0.25rem 0rem #00000040;
@@ -314,7 +314,7 @@ img {
   margin-top: -6.125rem;
   overflow: hidden;
 }
-#main-visual .main-visual__subtitle-now-only {
+#main-visual .main-visual__subtitle-content-now-only {
   display: block;
   width: 25%;
   height: 1.4375rem;
@@ -325,5 +325,26 @@ img {
   margin-left: 13.83%;
   margin-top: 1.75rem;
   padding-left: 0.25rem;
+}
+#main-visual .main-visual__subtitle-first-month {
+  display: flex;
+  margin-left: 14.36%;
+}
+#main-visual .main-visual__subtitle-content-first-month {
+  font-size: 1.5rem;
+  font-weight: 100;
+  color: var(--color-white);
+}
+#main-visual .main-visual__subtitle-content-zero {
+  font-size: 4.75rem;
+  display: block;
+  margin-top: -3.625rem;
+  margin-left: 6%;
+  color: var(--color-bright-yellow);
+}
+#main-visual .main-visual__subtile-content-yen {
+  font-size: 2.25rem;
+  color: var(--color-bright-yellow);
+  margin-top: -0.625rem;
 }
 /* #main-visual ここまで */
