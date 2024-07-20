@@ -356,6 +356,25 @@ img {
   line-height: normal;
   color: var(--color-bright-yellow);
 }
+#main-visual .main-visual__text-price {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--color-white);
+  display: block;
+  width: 3.75rem;
+  margin-left: auto;
+  margin-right: 0.125rem;
+  margin-top: 0.5rem;
+  white-space: nowrap;
+}
+#main-visual .main-visual__text-yen-per-month {
+  font-size: 0.5625rem;
+  font-weight: 100;
+  line-height: normal;
+  color: var(--color-white);
+  display: inline-block;
+}
 #main-visual .main-visual__photo-and-text-container {
   width: 100%;
   padding-left: 0.25rem;
