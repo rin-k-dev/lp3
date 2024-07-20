@@ -285,7 +285,7 @@ img {
   padding-right: 0;
   display: flex;
   gap: 0;
-  justify-content: center;
+  justify-content: space-between;
 }
 #main-visual .main-visual__title-full-body-hair-removal {
   font-size: 2.625rem;
@@ -382,7 +382,7 @@ img {
   margin: 0 auto;
   display: flex;
   gap: 0;
-  justify-content: center;
+  justify-content: space-between;
 }
 #main-visual .main-visual__photo-and-text-container figure {
   display: block;
@@ -414,5 +414,16 @@ img {
   color: var(--color-white);
   text-align: center;
   padding-top: 0.25rem;
+}
+@media(min-width:768px) {
+  #main-visual .main-visual__container {
+    height: 38.25rem;
+  }
+  #main-visual .main-visual__title-container {
+    width: calc(100% - 25.625rem);
+    margin: 0 auto;
+    padding-left: 3.4375rem;
+    padding-right: 1.9375rem;
+  }
 }
 /* #main-visual ここまで */
