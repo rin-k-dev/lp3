@@ -281,14 +281,18 @@ img {
 #main-visual .pc_only.main-visual__woman-photo {
   display: none;
 }
+#main-visual .main-visual__title-container {
+  display: block;
+  overflow: hidden;
+}
 #main-visual .main-visual__title {
   font-size: 2.625rem;
   line-height: normal;
   letter-spacing: 0;
   font-weight: 100;
   color: var(--color-white);
-  margin-left: 1.125rem;
-  padding-top: 0.5rem;
+  margin-left: 4.62%;
+  margin-top: 0.5rem;
   display: block;
 }
 #main-visual .main-visual__title-small {
