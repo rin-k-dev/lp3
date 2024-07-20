@@ -332,4 +332,7 @@ img {
   height: 100%;
   object-fit: cover;
 }
+#main-visual .pc_only.main-visual__woman-photo {
+  display: none;
+}
 /* #main-visual ここまで */
