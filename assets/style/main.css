@@ -278,9 +278,6 @@ img {
   height: 19.6875rem;
   background-color: var(--color-pink);
 }
-#main-visual .pc_only.main-visual__woman-photo {
-  display: none;
-}
 #main-visual .main-visual__title-container {
   display: block;
   overflow: hidden;
@@ -316,7 +313,7 @@ img {
 }
 #main-visual .main-visual__subtitle-content-now-only {
   display: block;
-  width: 25%;
+  width: 2.9375rem;
   height: 1.4375rem;
   background-color: var(--color-white);
   color: var(--color-pink);
@@ -378,16 +375,10 @@ img {
   color: var(--color-white);
   font-weight: 100;
   border: 0.0625rem solid var(--color-white);
-  width: 100%;
+  width: 8.3125rem;
   height: 2.1875rem;
   text-align: center;
   padding-top: 0.1875rem;
 }
-#main-visual .sp_only.main-visual__woman-photo {
-  display: block;
-  width: 53.59%;
-  height: 13.6875rem;
-  margin-top: -11.6875rem;
-  margin-left: 1%;
-}
+
 /* #main-visual ここまで */
