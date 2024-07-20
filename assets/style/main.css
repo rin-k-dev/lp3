@@ -383,4 +383,11 @@ img {
   text-align: center;
   padding-top: 0.1875rem;
 }
+#main-visual .sp_only.main-visual__woman-photo {
+  display: block;
+  width: 53.59%;
+  height: 13.6875rem;
+  margin-top: -11.6875rem;
+  margin-left: 1%;
+}
 /* #main-visual ここまで */
