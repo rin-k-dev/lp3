@@ -444,5 +444,9 @@ img {
     margin-top: -1.5rem;
     padding-left: 17.8125rem;
   }
+  #main-visual .main-visual__text-container {
+    width: 26.4513rem;
+    height: 13.875rem;
+  }
 }
 /* #main-visual ここまで */
