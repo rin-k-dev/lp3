@@ -347,4 +347,14 @@ img {
   color: var(--color-bright-yellow);
   margin-top: -0.625rem;
 }
+#main-visual .main-visual__subtitle-money-permonth {
+  margin-left: 77.18%;
+}
+#main-visual .main-visual__subtitle-content-money {
+  font-size: 0.875rem;
+  line-height: normal;
+  font-weight: 400;
+  color: var(--color-white);
+}
+
 /* #main-visual ここまで */
