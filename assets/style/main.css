@@ -273,8 +273,7 @@ img {
   height: 19.6875rem;
   background-color: var(--color-pink);
 }
-#main-visual .main-visual__woman-photo-container {
-  padding-top: 6.125rem;
-  padding-left: 3px;
+#main-visual .pc_only.main-visual__woman-photo {
+  display: none;
 }
 /* #main-visual ここまで */
