@@ -278,6 +278,7 @@ img {
   height: 19.6875rem;
   margin: 0 auto;
   background-color: var(--color-pink);
+  overflow: hidden;
 }
 #main-visual .main-visual__title-container {
   width: 100%;
