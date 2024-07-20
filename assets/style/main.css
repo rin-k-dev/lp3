@@ -513,5 +513,24 @@ img {
     font-size: 1.0637rem;
     font-weight: 100;
   }
+  #main-visual .main-visual__text-container-unlimited-attendance {
+    gap: 1.25rem;
+    margin: 0;
+    margin-right: 0.875rem;
+    margin-top: 45px;
+  }
+  #main-visual .main-visual__text-container-unlimited-attendance p {
+    width: 26.4375rem;
+    height: 4.3119rem;
+    font-size: 1.75rem;
+    padding: 0;
+    padding-top: 0.75rem;
+  }
+  #main-visual .main-visual__text-no-additional-charges {
+    font-feature-settings: "palt";
+  }
+  #main-visual .main-visual__text-peace-of-mind-support {
+    font-feature-settings: "palt";
+  }
 }
 /* #main-visual ここまで */
