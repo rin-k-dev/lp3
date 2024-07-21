@@ -427,7 +427,7 @@ img {
 @media(min-width:1380px) {
   #main-visual .main-visual__container {
     height: 38.25rem;
-    overflow: visible;
+    overflow: hidden;
   }
   #main-visual .main-visual__title-container {
     width: calc(100% - 25.625rem);
@@ -513,9 +513,10 @@ img {
   }
   #main-visual .pc_only.main-visual__woman-photo {
     display: block;
-    width: 30.375rem;
+    width: 30.5625rem;
     aspect-ratio: 486 / 608;
-    margin-top: 0;
+    margin-top: -7.5rem;
+    margin-left: -0.75rem;
     text-shadow: 0 0 6px rgba(255, 255, 255, 0.25);
   }
   #main-visual .main-visual__text-container-price {
