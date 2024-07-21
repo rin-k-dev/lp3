@@ -443,9 +443,11 @@ img {
     margin: 0;
     margin-top: -0.3125rem;
     margin-left: -0.5rem;
-    text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
-               0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
-               0 0 2.1875rem rgba(250, 125, 163, 0.6); /* 光彩のぼかし */
+    text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6);
   }
   #main-visual .main-visual__face-and-vio {
     font-size: 2.25rem;
@@ -570,9 +572,11 @@ img {
     margin: 0;
     margin-top: -0.3125rem;
     margin-left: -0.5rem;
-    text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
-               0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
-               0 0 2.1875rem rgba(250, 125, 163, 0.6); /* 光彩のぼかし */
+    text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6),
+               0 0 2.1875rem rgba(250, 125, 163, 0.6);
   }
   #main-visual .main-visual__face-and-vio {
     font-size: 2.25rem;
