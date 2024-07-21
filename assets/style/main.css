@@ -391,13 +391,8 @@ img {
   gap: 0;
   justify-content: space-between;
 }
-#main-visual .main-visual__photo-and-text-container figure {
-  display: block;
-  margin: 0;
-  width: 13.625rem;
-  height: 13.6875rem;
-}
 #main-visual .sp_only.main-visual__woman-photo {
+  display: block;
   width: 13.25rem;
   aspect-ratio: 209 / 261;
   margin-top: -0.625rem;
@@ -504,12 +499,6 @@ img {
   }
   #main-visual .sp_only.main-visual__woman-photo {
     display: none;
-  }
-  #main-visual .main-visual__photo-and-text-container figure {
-    display: block;
-    width: 30.375rem;
-    height: 38rem;
-    margin: 0;
   }
   #main-visual .pc_only.main-visual__woman-photo {
     display: block;
@@ -632,12 +621,6 @@ img {
   }
   #main-visual .sp_only.main-visual__woman-photo {
     display: none;
-  }
-  #main-visual .main-visual__photo-and-text-container figure {
-    display: block;
-    width: 30.375rem;
-    height: 38rem;
-    margin: 0;
   }
   #main-visual .pc_only.main-visual__woman-photo {
     display: block;
