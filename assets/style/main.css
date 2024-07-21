@@ -328,7 +328,7 @@ img {
   color: var(--color-pink);
   font-size: 0.8125rem;
   font-weight: 100;
-  line-height: normal;
+  line-height: 4.62;
   display: block;
   width: 2.9375rem;
   height: 1.4375rem;
@@ -339,17 +339,17 @@ img {
 #main-visual .main-visual__text-first-month {
   font-size: 1.5rem;
   font-weight: 100;
-  line-height: normal;
+  line-height: 2.5;
   color: var(--color-white);
-  display: block;
+  display: inline-block;
   width: 8.625rem;
   margin-left: 1.6875rem;
-  margin-top: -3.625rem;
+  margin-top: -3.125rem;
 }
 #main-visual .main-visual__text-zero {
   font-size: 4.75rem;
   font-weight: 100;
-  line-height: normal;
+  line-height: 1.25;
   color: var(--color-bright-yellow);
   display: inline-block;
   margin-left: 0.8125rem;
@@ -357,7 +357,7 @@ img {
 #main-visual .main-visual__text-yen {
   font-size: 2.25rem;
   font-weight: 100;
-  line-height: normal;
+  line-height: 2.64;
   color: var(--color-bright-yellow);
 }
 #main-visual .main-visual__text-price {
