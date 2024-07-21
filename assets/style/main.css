@@ -464,26 +464,27 @@ img {
     font-size: 1.8281rem;
     margin: 0;
     margin-left: 3.625rem;
-    margin-top: 2.75rem;
+    margin-top: 2.6875rem;
     padding-left: 0.625rem;
+    padding-top: 0.75rem;
   }
   #main-visual .main-visual__text-first-month {
     width: 19.4219rem;
     white-space: nowrap;
     font-size: 3.375rem;
     margin: 0;
+    margin-top: -5.375rem;
     margin-left: 3.8125rem;
-    margin-top: -7.8125rem;
   }
   #main-visual .main-visual__text-zero {
     margin: 0;
-    margin-left: 1.5rem;
+    margin-left: 1.7rem;
     font-size: 10.6875rem;
-    font-weight: 600;
+    font-weight: 100;
   }
   #main-visual .main-visual__text-yen {
     font-size: 81px;
-    font-weight: 600;
+    font-weight: 100;
   }
   #main-visual .sp_only.main-visual__woman-photo {
     display: none;
