@@ -393,9 +393,9 @@ img {
 }
 #main-visual .main-visual__photo-and-text-container figure {
   display: block;
-  width: 13.0625rem;
-  height: 13.6875rem;
-  margin-top: -0.5rem;
+  width: 13.25rem;
+  height: 16.3125rem;
+  margin-top: -0.625rem;
 }
 #main-visual .sp_only.main-visual__woman-photo {
   width: 100%;
