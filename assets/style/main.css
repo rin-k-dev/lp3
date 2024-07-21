@@ -422,7 +422,7 @@ img {
   text-align: center;
   padding-top: 0.25rem;
 }
-@media(min-width:1401px) {
+@media(min-width:1380px) {
   #main-visual .main-visual__container {
     height: 38.25rem;
   }
@@ -457,6 +457,7 @@ img {
   #main-visual .main-visual__text-container {
     width: 26.4513rem;
     height: 13.875rem;
+    padding-right: 3.625rem;
   }
   #main-visual .main-visual__text-now-only {
     width: 6.61rem;
@@ -542,7 +543,7 @@ img {
   }
 }
 
-@media(min-width:768px) and (max-width:1400px) {
+@media(min-width:768px) and (max-width:1379px) {
   #main-visual .main-visual__container {
     height: 54.0625rem;
   }
