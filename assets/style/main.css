@@ -30,7 +30,7 @@ body {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 0.875rem;
   font-style: normal;
-  line-height: 1.5;
+  line-height: 1;
   letter-spacing: normal;
   color: var(--color-dark-gray);
 }
@@ -417,6 +417,7 @@ img {
   height: 2.1875rem;
   font-size: 1.125rem;
   font-weight: 100;
+  line-height: normal;
   border: 0.0625rem solid var(--color-white);
   color: var(--color-white);
   text-align: center;
@@ -532,6 +533,7 @@ img {
     width: 26.4375rem;
     height: 4.3119rem;
     font-size: 1.75rem;
+    line-height: normal;
     padding: 0;
     padding-top: 0.75rem;
   }
@@ -655,6 +657,7 @@ img {
     width: 18.75rem;
     height: 4.3119rem;
     font-size: 1.75rem;
+    line-height: normal;
     padding: 0;
     padding-top: 0.75rem;
   }
