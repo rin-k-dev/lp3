@@ -622,13 +622,6 @@ img {
     font-size: 81px;
     font-weight: 100;
   }
-  #main-visual .sp_only.main-visual__woman-photo {
-    display: none;
-  }
-  #main-visual .pc_only.main-visual__woman-photo {
-    display: block;
-
-  }
   #main-visual .main-visual__photo-and-text-container {
     width: calc(100% - 2.5rem);
     margin: 0 auto;
@@ -637,9 +630,22 @@ img {
     z-index: 1;
     justify-content: space-between;
   }
+  #main-visual .sp_only.main-visual__woman-photo {
+    display: none;
+  }
   #main-visual .main-visual__photo-and-text-container figure {
     display: block;
+    width: 30.375rem;
+    height: 38rem;
     margin: 0;
+  }
+  #main-visual .pc_only.main-visual__woman-photo {
+    display: block;
+    width: 30.5625rem;
+    aspect-ratio: 486 / 608;
+    margin-top: -7.5rem;
+    margin-left: -0.75rem;
+    text-shadow: 0 0 6px rgba(255, 255, 255, 0.25);
   }
   #main-visual .main-visual__text-container-price {
     margin-right: 8.4375rem;
@@ -660,7 +666,7 @@ img {
     margin-bottom: 3.4375rem;
   }
   #main-visual .main-visual__text-container-unlimited-attendance p {
-    width: 18.75rem;
+    width: 230px;
     height: 4.3119rem;
     font-size: 1.75rem;
     line-height: normal;
