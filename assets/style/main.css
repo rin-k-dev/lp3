@@ -319,7 +319,7 @@ img {
   height: 6.6875rem;
   display: block;
   margin-right: 0;
-  margin-left: 10px;
+  margin-left: 0.625rem;
   background-color: var(--color-white-opacity);
   box-shadow: 0.25rem 0.25rem 0px #00000040;
 }
