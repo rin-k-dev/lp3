@@ -281,6 +281,7 @@ img {
   height: 19.6875rem;
   margin: 0 auto;
   background-color: var(--color-pink);
+  overflow: hidden;
 }
 #main-visual .main-visual__title-container {
   width: 100%;
@@ -393,10 +394,14 @@ img {
 #main-visual .main-visual__photo-and-text-container figure {
   display: block;
   margin: 0;
+  width: 13.625rem;
+  height: 13.6875rem;
 }
 #main-visual .sp_only.main-visual__woman-photo {
-
-
+  width: 13.25rem;
+  aspect-ratio: 209 / 261;
+  margin-top: -0.625rem;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.25);
 }
 #main-visual .pc_only.main-visual__woman-photo {
   display: none;
