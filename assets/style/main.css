@@ -441,6 +441,7 @@ img {
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
+    margin-top: -0.3125rem;
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
                0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
@@ -505,7 +506,7 @@ img {
     width: 30.375rem;
     height: 38rem;
     margin: 0;
-    margin-top: -6.875rem;
+    margin-top: -7.375rem;
     margin-left: -0.625rem;
   }
   #main-visual .pc_only.main-visual__woman-photo {
@@ -567,6 +568,7 @@ img {
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
+    margin-top: -0.3125rem;
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
                0 0 2.1875rem rgba(250, 125, 163, 0.6), /* 光彩のぼかし */
