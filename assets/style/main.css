@@ -439,13 +439,14 @@ img {
     padding-right: 1.9375rem;
     position: relative;
     z-index: 10;
+    justify-content: space-between;
   }
   #main-visual .main-visual__title-full-body-hair-removal {
     width: 30.5rem;
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
-    margin-top: -0.3125rem;
+    margin-top: -1rem;
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
                0 0 2.1875rem rgba(250, 125, 163, 0.6),
@@ -472,6 +473,7 @@ img {
     width: 6.61rem;
     height: 3.2281rem;
     font-size: 1.8281rem;
+    font-weight: 700;
     margin: 0;
     margin-top: 2.6875rem;
     padding-left: 0.625rem;
@@ -481,6 +483,7 @@ img {
     width: 19.4219rem;
     white-space: nowrap;
     font-size: 3.375rem;
+    font-weight: 700;
     margin: 0;
     margin-top: -5.375rem;
     margin-left: 0.1875rem;
@@ -489,11 +492,11 @@ img {
     margin: 0;
     margin-left: 1.7rem;
     font-size: 10.6875rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__text-yen {
     font-size: 5.0625rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__photo-and-text-container {
     width: calc(100% - 27.625rem);
@@ -562,13 +565,14 @@ img {
     padding-right: 1.9375rem;
     position: relative;
     z-index: 10;
+    justify-content: space-between;
   }
   #main-visual .main-visual__title-full-body-hair-removal {
     width: 30.5rem;
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
-    margin-top: -0.75rem;
+    margin-top: -1rem;
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
                0 0 2.1875rem rgba(250, 125, 163, 0.6),
@@ -595,6 +599,7 @@ img {
     width: 6.61rem;
     height: 3.2281rem;
     font-size: 1.8281rem;
+    font-weight: 700;
     margin: 0;
     margin-top: 2.6875rem;
     padding-left: 0.625rem;
@@ -604,6 +609,7 @@ img {
     width: 19.4219rem;
     white-space: nowrap;
     font-size: 3.375rem;
+    font-weight: 700;
     margin: 0;
     margin-top: -5.375rem;
     margin-left: 0.1875rem;
@@ -612,11 +618,11 @@ img {
     margin: 0;
     margin-left: 1.7rem;
     font-size: 10.6875rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__text-yen {
     font-size: 5.0625rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__photo-and-text-container {
     width: calc(100% - 2.5rem);
