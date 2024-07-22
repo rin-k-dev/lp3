@@ -439,13 +439,14 @@ img {
     padding-right: 1.9375rem;
     position: relative;
     z-index: 10;
+    justify-content: space-between;
   }
   #main-visual .main-visual__title-full-body-hair-removal {
     width: 30.5rem;
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
-    margin-top: -0.3125rem;
+    margin-top: -0.75rem;
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
                0 0 2.1875rem rgba(250, 125, 163, 0.6),
@@ -562,6 +563,7 @@ img {
     padding-right: 1.9375rem;
     position: relative;
     z-index: 10;
+    justify-content: space-between;
   }
   #main-visual .main-visual__title-full-body-hair-removal {
     width: 30.5rem;
