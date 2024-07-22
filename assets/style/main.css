@@ -398,10 +398,15 @@ img {
   width: 13.25rem;
   aspect-ratio: 209 / 261;
   margin-top: -0.625rem;
+  margin-left: 0;
   text-shadow: 0 0 6px rgba(255, 255, 255, 0.25);
 }
 #main-visual .pc_only.main-visual__woman-photo {
   display: none;
+}
+#main-visual .main-visual__text-container-price-and-unlimited-attendance {
+  margin: 0;
+  padding-left: 1.1875rem;
 }
 #main-visual .main-visual__text-container-unlimited-attendance {
   display: flex;
