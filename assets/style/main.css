@@ -294,7 +294,7 @@ img {
 }
 #main-visual .main-visual__title-full-body-hair-removal {
   font-size: 2.625rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0;
   color: var(--color-white);
@@ -306,7 +306,7 @@ img {
 }
 #main-visual .main-visual__face-and-vio {
   font-size: 1.125rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0;
   color: var(--color-white);
@@ -328,7 +328,7 @@ img {
   background-color: var(--color-white);
   color: var(--color-pink);
   font-size: 0.8125rem;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1;
   display: block;
   width: 2.9375rem;
@@ -341,7 +341,7 @@ img {
 }
 #main-visual .main-visual__text-first-month {
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1;
   color: var(--color-white);
   display: inline-block;
@@ -352,15 +352,15 @@ img {
 }
 #main-visual .main-visual__text-zero {
   font-size: 4.75rem;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1;
   color: var(--color-bright-yellow);
   display: inline-block;
-  margin-left: 0.8125rem;
+  margin-left: 0.5rem;
 }
 #main-visual .main-visual__text-yen {
   font-size: 2.25rem;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1;
   color: var(--color-bright-yellow);
 }
@@ -378,7 +378,7 @@ img {
 }
 #main-visual .main-visual__text-yen-per-month {
   font-size: 0.5625rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   color: var(--color-white);
   display: inline-block;
@@ -419,7 +419,7 @@ img {
   width: 8.3125rem;
   height: 2.1875rem;
   font-size: 1.125rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   border: 0.0625rem solid var(--color-white);
   color: var(--color-white);
@@ -446,7 +446,11 @@ img {
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
+<<<<<<< HEAD
+    margin-top: -1rem;
+=======
     margin-top: -0.75rem;
+>>>>>>> 543ade74b0fc60fbfee260726c4a84fd4ac1530f
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
                0 0 2.1875rem rgba(250, 125, 163, 0.6),
@@ -473,6 +477,7 @@ img {
     width: 6.61rem;
     height: 3.2281rem;
     font-size: 1.8281rem;
+    font-weight: 700;
     margin: 0;
     margin-top: 2.6875rem;
     padding-left: 0.625rem;
@@ -482,6 +487,7 @@ img {
     width: 19.4219rem;
     white-space: nowrap;
     font-size: 3.375rem;
+    font-weight: 700;
     margin: 0;
     margin-top: -5.375rem;
     margin-left: 0.1875rem;
@@ -490,11 +496,11 @@ img {
     margin: 0;
     margin-left: 1.7rem;
     font-size: 10.6875rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__text-yen {
     font-size: 5.0625rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__photo-and-text-container {
     width: calc(100% - 27.625rem);
@@ -525,7 +531,7 @@ img {
   }
   #main-visual .main-visual__text-yen-per-month {
     font-size: 1.0637rem;
-    font-weight: 100;
+    font-weight: 400;
   }
   #main-visual .main-visual__text-container-unlimited-attendance {
     gap: 1.25rem;
@@ -537,6 +543,7 @@ img {
     width: 26.4375rem;
     height: 4.3119rem;
     font-size: 1.75rem;
+    font-weight: 400;
     line-height: normal;
     padding: 0;
     padding-top: 0.75rem;
@@ -570,7 +577,7 @@ img {
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
-    margin-top: -0.75rem;
+    margin-top: -1rem;
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
                0 0 2.1875rem rgba(250, 125, 163, 0.6),
@@ -597,6 +604,7 @@ img {
     width: 6.61rem;
     height: 3.2281rem;
     font-size: 1.8281rem;
+    font-weight: 700;
     margin: 0;
     margin-top: 2.6875rem;
     padding-left: 0.625rem;
@@ -606,6 +614,7 @@ img {
     width: 19.4219rem;
     white-space: nowrap;
     font-size: 3.375rem;
+    font-weight: 700;
     margin: 0;
     margin-top: -5.375rem;
     margin-left: 0.1875rem;
@@ -614,11 +623,11 @@ img {
     margin: 0;
     margin-left: 1.7rem;
     font-size: 10.6875rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__text-yen {
     font-size: 5.0625rem;
-    font-weight: 100;
+    font-weight: 700;
   }
   #main-visual .main-visual__photo-and-text-container {
     width: calc(100% - 2.5rem);
@@ -648,7 +657,7 @@ img {
   }
   #main-visual .main-visual__text-yen-per-month {
     font-size: 1.0637rem;
-    font-weight: 100;
+    font-weight: 400;
   }
   #main-visual .main-visual__text-container-unlimited-attendance {
     gap: 1.25rem;
@@ -661,6 +670,7 @@ img {
     width: 230px;
     height: 4.3119rem;
     font-size: 1.75rem;
+    font-weight: 400;
     line-height: normal;
     padding: 0;
     padding-top: 0.75rem;
