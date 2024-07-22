@@ -378,7 +378,7 @@ img {
 }
 #main-visual .main-visual__text-yen-per-month {
   font-size: 0.5625rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   color: var(--color-white);
   display: inline-block;
@@ -419,7 +419,7 @@ img {
   width: 8.3125rem;
   height: 2.1875rem;
   font-size: 1.125rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   border: 0.0625rem solid var(--color-white);
   color: var(--color-white);
