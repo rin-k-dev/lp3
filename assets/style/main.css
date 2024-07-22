@@ -328,7 +328,7 @@ img {
   background-color: var(--color-white);
   color: var(--color-pink);
   font-size: 0.8125rem;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1;
   display: block;
   width: 2.9375rem;
@@ -341,7 +341,7 @@ img {
 }
 #main-visual .main-visual__text-first-month {
   font-size: 1.5rem;
-  font-weight: 100;
+  font-weight: 700;
   line-height: 1;
   color: var(--color-white);
   display: inline-block;
