@@ -294,7 +294,7 @@ img {
 }
 #main-visual .main-visual__title-full-body-hair-removal {
   font-size: 2.625rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0;
   color: var(--color-white);
@@ -306,7 +306,7 @@ img {
 }
 #main-visual .main-visual__face-and-vio {
   font-size: 1.125rem;
-  font-weight: 100;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 0;
   color: var(--color-white);
