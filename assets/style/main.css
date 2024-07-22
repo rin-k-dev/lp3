@@ -446,7 +446,11 @@ img {
     font-size: 7.6344rem;
     font-weight: 400;
     margin: 0;
+<<<<<<< HEAD
     margin-top: -1rem;
+=======
+    margin-top: -0.75rem;
+>>>>>>> 543ade74b0fc60fbfee260726c4a84fd4ac1530f
     margin-left: -0.5rem;
     text-shadow: 0 0 2.1875rem rgba(250, 125, 163, 0.6),
                0 0 2.1875rem rgba(250, 125, 163, 0.6),
