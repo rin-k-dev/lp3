@@ -681,9 +681,12 @@ img {
 /* #main-visual ここまで */
 
 /* #present ここから */
-#present .present__container {
+#present .present__wrapper {
   width: 100%;
   background-color: var(--color-light-yellow);
+}
+#present .present__container {
+  width: 100%;
   padding-top: 1.375rem;
   padding-bottom: 1rem;
 }
@@ -761,5 +764,16 @@ img {
   color: var(--color-dark-gray);
   margin-top: 0.4375rem;
   margin-left: 5.75rem;
+}
+@media(min-width:768px) {
+  #present .present__wrapper {
+    width: 100%;
+    background-color: var(--color-light-yellow);
+  }
+  #present .present__container {
+    width: calc(100% - 25.625rem);
+    max-width: 1030px;
+    margin: 0 auto;
+  }
 }
 /* #present ここまで */
