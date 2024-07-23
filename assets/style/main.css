@@ -681,5 +681,99 @@ img {
 /* #main-visual ここまで */
 
 /* #present ここから */
+#present .present__wrapper {
+  width: 100%;
+  background-color: var(--color-light-yellow);
+}
+#present .present__container {
+  width: 100%;
+  padding-top: 1.375rem;
+  padding-bottom: 1rem;
+}
+#present .present__title {
+  display: flex;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-pink);
+  font-feature-settings: "palt";
+  margin-left: 145px;
+}
+#present .present__title::before, #present .present__title::after {
+  content: '';
+  width: 0.125rem;
+  height: 1.6875rem;
+  background-color: var(--color-pink);
+}
+#present .present__title::before {
+  margin-right: 0.75rem;
+  transform: rotate(-29.99deg)
+}
+#present .present__title::after {
+  margin-left: 0.75rem;
+  transform: rotate(-150.01deg)
+}
+#present .present__text-container {
+  width: 21.875rem;
+  height: 5.8125rem;
+  border-radius: 10px;
+  border: var(--color-pink) solid 1px;
+  overflow: hidden;
+  margin-top: 0.75rem;
+  margin-left: 1.3125rem;
+}
 
+#present .present__subtitle {
+  font-size: 1.3125rem;
+  line-height: .86;
+  font-weight: 400;
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  width: 21.875rem;
+  height: 2rem;
+  padding-left: 5rem;
+  padding-top: 4px;
+}
+
+#present .present_text-present {
+  font-size: 1.6875rem;
+  line-height: .96;
+  letter-spacing: 0;
+  font-weight: 400;
+  color: var(--color-pink);
+  background-color: var(--color-white);
+  width: 21.875rem;
+  height: 3.8125rem;
+  padding-left: 4.5625rem;
+  padding-top: 11px;
+  overflow: hidden;
+}
+#present .present_text-present .present__text-three {
+  font-size: 2.625rem;
+  line-height: .76;
+  letter-spacing: 0;
+  font-weight: 600;
+  color: var(--color-pink);
+  background-color: var(--color-white);
+}
+#present .present__text-cleansing {
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0;
+  color: var(--color-dark-gray);
+  margin-top: 0.4375rem;
+  margin-left: 5.75rem;
+}
+@media(min-width:768px) {
+  #present .present__wrapper {
+    width: 100%;
+    background-color: var(--color-light-yellow);
+  }
+  #present .present__container {
+    width: calc(100% - 25.625rem);
+    max-width: 1030px;
+    margin: 0 auto;
+  }
+}
 /* #present ここまで */
