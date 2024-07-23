@@ -684,5 +684,30 @@ img {
 #present .present__container {
   width: 100%;
   background-color: var(--color-light-yellow);
+  padding-top: 1.375rem;
 }
+#present .present__title {
+  display: flex;
+  font-size: 1.3125rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-pink);
+  font-feature-settings: "palt";
+  margin-left: 145px;
+}
+#present .present__title::before, #present .present__title::after {
+  content: '';
+  width: 0.125rem;
+  height: 1.6875rem;
+  background-color: var(--color-pink);
+}
+#present .present__title::before {
+  margin-right: 0.75rem;
+  transform: rotate(-29.99deg)
+}
+#present .present__title::after {
+  margin-left: 0.75rem;
+  transform: rotate(-150.01deg)
+}
+
 /* #present ここまで */
