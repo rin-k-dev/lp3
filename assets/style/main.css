@@ -722,30 +722,33 @@ img {
 
 #present .present__subtitle {
   font-size: 1.3125rem;
-  line-height: normal;
+  line-height: .86;
   font-weight: 400;
   background-color: var(--color-pink);
   color: var(--color-white);
   width: 21.875rem;
   height: 2rem;
   padding-left: 5rem;
-  padding-top: 0;
+  padding-top: 4px;
 }
 
 #present .present_text-present {
   font-size: 1.6875rem;
-  line-height: normal;
+  line-height: .96;
+  letter-spacing: 0;
   font-weight: 400;
   color: var(--color-pink);
   background-color: var(--color-white);
   width: 21.875rem;
   height: 3.8125rem;
   padding-left: 4.5625rem;
-  padding-top: 0;
+  padding-top: 11px;
+  overflow: hidden;
 }
 #present .present_text-present .present__text-three {
   font-size: 2.625rem;
-  line-height: normal;
+  line-height: .76;
+  letter-spacing: 0;
   font-weight: 600;
   color: var(--color-pink);
   background-color: var(--color-white);
@@ -754,6 +757,7 @@ img {
   font-size: 0.625rem;
   font-weight: 400;
   line-height: normal;
+  letter-spacing: 0;
   color: var(--color-dark-gray);
   margin-top: 0.4375rem;
   margin-left: 5.75rem;
