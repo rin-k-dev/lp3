@@ -681,5 +681,8 @@ img {
 /* #main-visual ここまで */
 
 /* #present ここから */
-
+#present .present__container {
+  width: 100%;
+  background-color: var(--color-light-yellow);
+}
 /* #present ここまで */
