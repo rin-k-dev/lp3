@@ -697,7 +697,7 @@ img {
   line-height: 1;
   color: var(--color-pink);
   font-feature-settings: "palt";
-  margin-left: 145px;
+  margin-left: 9.0625rem;
 }
 #present .present__title::before, #present .present__title::after {
   content: '';
@@ -774,6 +774,32 @@ img {
     width: calc(100% - 25.625rem);
     max-width: 1030px;
     margin: 0 auto;
+    padding-top: 3.0625rem;
+    padding-bottom: 1.625rem;
+  }
+  #present .present__title {
+    display: flex;
+    font-size: 2.125rem;
+    font-weight: 400;
+    line-height: .94;
+    letter-spacing: 3.5px;
+    color: var(--color-pink);
+    font-feature-settings: "normal";
+    margin-left: 27.1875rem;
+  }
+  #present .present__title::before, #present .present__title::after {
+    content: '';
+    width: 0.2044rem;
+    height: 2.7625rem;
+    background-color: var(--color-pink);
+  }
+  #present .present__title::before {
+    margin-right: 0.75rem;
+    transform: rotate(-29.99deg)
+  }
+  #present .present__title::after {
+    margin-left: 0.75rem;
+    transform: rotate(-150.01deg)
   }
 }
 /* #present ここまで */
