@@ -801,5 +801,46 @@ img {
     margin-left: 0.75rem;
     transform: rotate(-150.01deg)
   }
+  #present .present__text-container {
+    width: 34.375rem;
+    height: 9.25rem;
+    border-radius: 10px;
+    border: var(--color-pink) solid 1px;
+    overflow: hidden;
+    margin-top: 0.75rem;
+    margin-left: 15.1875rem;
+  }
+  #present .present__subtitle {
+    font-size: 2rem;
+    line-height: .875;
+    font-weight: 400;
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    width: 34.375rem;
+    height: 2.9375rem;
+    padding-left: 8.125rem;
+    padding-top: 0.5625rem;
+  }
+  #present .present_text-present {
+    font-size: 2.7294rem;
+    line-height: .82;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: var(--color-pink);
+    background-color: var(--color-white);
+    width: 34.375rem;
+    height: 6.3125rem;
+    padding-left: 6.875rem;
+    padding-top: 1.5rem;
+    overflow: hidden;
+  }
+  #present .present_text-present .present__text-three {
+    font-size: 4.2456rem;
+    line-height: .78;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: var(--color-pink);
+    background-color: var(--color-white);
+  }
 }
 /* #present ここまで */
