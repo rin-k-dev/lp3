@@ -842,5 +842,14 @@ img {
     color: var(--color-pink);
     background-color: var(--color-white);
   }
+  #present .present__text-cleansing {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0;
+    color: var(--color-dark-gray);
+    margin-top: 1.25rem;
+    margin-left: 372px;
+  }
 }
 /* #present ここまで */
