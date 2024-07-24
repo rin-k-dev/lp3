@@ -686,18 +686,20 @@ img {
   background-color: var(--color-light-yellow);
 }
 #present .present__container {
-  width: 100%;
+  width: calc(100% - 2.5rem);
+  margin: 0 auto;
   padding-top: 1.375rem;
   padding-bottom: 1rem;
 }
 #present .present__title {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.3125rem;
   font-weight: 400;
-  line-height: 1;
+  line-height: .95;
   color: var(--color-pink);
   font-feature-settings: "palt";
-  margin-left: 9.0625rem;
 }
 #present .present__title::before, #present .present__title::after {
   content: '';
@@ -714,37 +716,42 @@ img {
   transform: rotate(-150.01deg)
 }
 #present .present__text-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 21.875rem;
   height: 5.8125rem;
   border-radius: 10px;
   border: var(--color-pink) solid 1px;
   overflow: hidden;
   margin-top: 0.75rem;
-  margin-left: 1.3125rem;
 }
 
 #present .present__subtitle {
+  display: inline-block;
+  text-align: center;
   font-size: 1.3125rem;
   line-height: .86;
   font-weight: 400;
   background-color: var(--color-pink);
   color: var(--color-white);
-  width: 21.875rem;
+  width: 100%;
   height: 2rem;
-  padding-left: 5rem;
   padding-top: 0.25rem;
 }
 
 #present .present_text-present {
+  display: inline-block;
+  text-align: center;
   font-size: 1.6875rem;
   line-height: .96;
   letter-spacing: 0;
   font-weight: 400;
   color: var(--color-pink);
   background-color: var(--color-white);
-  width: 21.875rem;
+  width: 100%;
   height: 3.8125rem;
-  padding-left: 4.5625rem;
+  padding-left: 0.5rem;
   padding-top: 0.6875rem;
   overflow: hidden;
 }
@@ -757,13 +764,15 @@ img {
   background-color: var(--color-white);
 }
 #present .present__text-cleansing {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
   font-size: 0.625rem;
   font-weight: 400;
   line-height: normal;
   letter-spacing: 0;
   color: var(--color-dark-gray);
   margin-top: 0.4375rem;
-  margin-left: 5.75rem;
 }
 @media(min-width:1380px) {
   #present .present__wrapper {
@@ -774,18 +783,20 @@ img {
     width: calc(100% - 25.625rem);
     max-width: 1030px;
     margin: 0 auto;
-    padding-top: 3.0625rem;
+    padding-top: 2.75rem;
     padding-bottom: 1.625rem;
   }
   #present .present__title {
     display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 2.125rem;
     font-weight: 400;
     line-height: .94;
-    letter-spacing: 3.5px;
+    letter-spacing: 0.225rem;
     color: var(--color-pink);
     font-feature-settings: "normal";
-    margin-left: 27.1875rem;
+    padding-left: 0.1875rem;
   }
   #present .present__title::before, #present .present__title::after {
     content: '';
@@ -802,13 +813,15 @@ img {
     transform: rotate(-150.01deg)
   }
   #present .present__text-container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 34.375rem;
     height: 9.25rem;
     border-radius: 10px;
     border: var(--color-pink) solid 1px;
     overflow: hidden;
-    margin-top: 0.75rem;
-    margin-left: 15.1875rem;
+    margin-top: 1.125rem;
   }
   #present .present__subtitle {
     font-size: 2rem;
@@ -818,8 +831,8 @@ img {
     color: var(--color-white);
     width: 34.375rem;
     height: 2.9375rem;
-    padding-left: 8.125rem;
-    padding-top: 0.5625rem;
+    padding-left: 0;
+    padding-top: 0.5rem;
   }
   #present .present_text-present {
     font-size: 2.7294rem;
@@ -830,8 +843,8 @@ img {
     background-color: var(--color-white);
     width: 34.375rem;
     height: 6.3125rem;
-    padding-left: 6.875rem;
-    padding-top: 1.5rem;
+    padding-left: 1.125rem;
+    padding-top: 1.125rem;
     overflow: hidden;
   }
   #present .present_text-present .present__text-three {
@@ -849,7 +862,6 @@ img {
     letter-spacing: 0;
     color: var(--color-dark-gray);
     margin-top: 1.25rem;
-    margin-left: 372px;
   }
 }
 
@@ -868,7 +880,7 @@ img {
   #present .present__title {
     display: flex;
     justify-content: center;
-    align-self: center;
+    align-items: center;
     gap: 0;
     font-size: 2.125rem;
     font-weight: 400;
@@ -894,8 +906,9 @@ img {
     transform: rotate(-150.01deg)
   }
   #present .present__text-container {
-    display: inline-block;
-    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     width: 34.375rem;
     height: 9.25rem;
     border-radius: 10px;
@@ -910,7 +923,7 @@ img {
     font-weight: 400;
     background-color: var(--color-pink);
     color: var(--color-white);
-    width: 34.375rem;
+    width: 100%;
     height: 2.9375rem;
     text-align: center;
     margin-left: auto;
@@ -925,7 +938,7 @@ img {
     font-weight: 400;
     color: var(--color-pink);
     background-color: var(--color-white);
-    width: 34.375rem;
+    width: 100%;
     height: 6.3125rem;
     text-align: center;
     margin-left: auto;
@@ -949,7 +962,6 @@ img {
     letter-spacing: 0;
     color: var(--color-dark-gray);
     margin-top: 1.25rem;
-    margin-left: auto;
   }
 
 }
