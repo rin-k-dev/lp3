@@ -986,46 +986,37 @@ img {
   color: var(--color-pink);
 }
 #free-trial .free-trial__link {
-  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 0;
   width: 21.875rem;
   height: 5rem;
-  border-radius: 40px;
   background-color: var(--color-green);
   color: var(--color-white);
+  border-radius: 40px;
   margin-top: 0.8125rem;
+  cursor: pointer;
   transition: all .3s ease-out;
 }
 #free-trial .free-trial__link:hover {
   opacity: .7;
 }
-#free-trial .free-trial__link .free-trial__link-text {
-  display: block;
-}
 #free-trial .free-trial__link-counseling-reservation {
-  display: block;
+  display: inline-block;
+  text-align: center;
   font-size: 1.3125rem;
   line-height: 1.33;
-  font-weight: 700;
   letter-spacing: 0.1em;
-  margin-left: 0.625rem;
+  vertical-align: -1em;
+  padding-left: 1.5rem;
 }
-#free-trial .free-trial__link-here {
-  display: block;
-  font-size: 1.3125rem;
-  line-height: 1.33;
-  font-weight: 700;
-  letter-spacing: 0.1em;
-  margin-left: 1.5rem;
-}
-#free-trial .free-trial__link-arrow {
-  display: block;
+#free-trial .free-trial__link-arrow::before {
+  display: inline-block;
   width: 0.8125rem;
-  font-size: 1.5rem;
-  position: relative;
-  left: 1.4375rem;
+  font-size: 1.375rem;
+  padding-left: 1.5rem;
+}
+@media(min-width:768px) {
+
 }
 /* #free-trial ここまで */
