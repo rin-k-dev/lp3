@@ -1429,4 +1429,100 @@ img {
     margin-right: 0.5rem;
   }
 }
+#point .point__box-container1 {
+  width: 100%;
+  border: var(--color-pink) solid 1px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 1.25rem;
+}
+#point .point__subtitle-point1 {
+  background-color: var(--color-pink);
+  color: var(--color-white);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.61;
+  width: 100%;
+  height: 2.87rem;
+  text-align: center;
+  padding-top: 0.5rem;
+}
+#point .point__text-point1 {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--color-dark-gray);
+  font-feature-settings: "palt";
+  letter-spacing: 0.04em;
+  text-align: left;
+}
+#point .point__text-point1-wrapper {
+  width: 100%;
+  background-color: var(--color-white);
+}
+#point .point__text-point1-container {
+  width: calc(100% - 2.5625rem);
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+#point .point__photo-KBL-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 8.9375rem;
+  height: 5.3125rem;
+  border: var(--color-pink) solid 1px;
+}
+#point .sp_only.point__photo-KBL {
+  display: inline-block;
+  width: 4.4375rem;
+  height: 2.1875rem;
+  margin-left: 0.1875rem;
+}
+#point .point__photo-KBL-caption {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--color-dark-gray);
+  margin-top: 0.5625rem;
+}
+#point .point__photo-KBL-wrapper {
+  display: flex;
+  width: 8.9375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#point .point__photo-A-salon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8.9375rem;
+  height: 5.3125rem;
+  border: var(--color-medium-gray) solid 1px;
+  background-color: var(--color-light-pink);
+}
+#point .point__photo-A-salon-text {
+  color: var(--color-deep-gray);
+  font-size: 1.125rem;
+  letter-spacing: 0.12em;
+  line-height: .83;
+  font-feature-settings: "palt";
+}
+#point .point__photo-A-salon-wrapper {
+  display: flex;
+  width: 8.9375rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#point .point__photo-point1-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 1.25rem;
+  padding-top: 0.8125rem;
+  padding-bottom: 1.125rem;
+  gap: 1.375rem;
+}
 /* #point ここまで */
