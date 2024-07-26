@@ -1480,7 +1480,7 @@ img {
   height: 2.1875rem;
   margin-left: 0.1875rem;
 }
-#point .point__photo-KBL-caption {
+#point .point__photo-KBL-caption, #point .point__photo-A-salon-caption {
   font-size: 0.875rem;
   font-weight: 400;
   line-height: 1;
@@ -1524,5 +1524,111 @@ img {
   padding-top: 0.8125rem;
   padding-bottom: 1.125rem;
   gap: 1.375rem;
+}
+
+@media (min-width:768px) {
+  #point .point__box-container1 {
+    width: calc(100% - 15.625rem);
+    max-width: 780px;
+    margin: 0 auto;
+    border: var(--color-pink) solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 3rem;
+  }
+  #point .point__subtitle-point1 {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.03;
+    width: 100%;
+    height: 4.625rem;
+    text-align: center;
+    padding-top: 1.5625rem;
+  }
+  #point .point__text-point1 {
+    font-size: 1.3125rem;
+    line-height: .95;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    letter-spacing: 0;
+    text-align: left;
+    font-feature-settings: normal;
+  }
+  #point .point__text-point1-wrapper {
+    width: 100%;
+    background-color: var(--color-white);
+  }
+  #point .point__text-point1-container {
+    width: calc(100% - 5rem);
+    margin: 0 auto;
+    padding-top: 1.75rem;
+  }
+  #point .point__photo-KBL-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14.5rem;
+    height: 8.5625rem;
+    border: var(--color-pink) solid 1px;
+  }
+  #point .sp_only.point__photo-KBL {
+    display: none;
+  }
+  #point .pc_only.point__photo-KBL {
+    display: inline-block;
+    width: 7.25rem;
+    height: 3.625rem;
+    margin-left: 0.1875rem;
+  }
+  #point .point__photo-KBL-caption, #point .point__photo-A-salon-caption {
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: .95;
+    color: var(--color-dark-gray);
+    margin-top: 1rem;
+  }
+  #point .point__photo-KBL-wrapper {
+    display: flex;
+    width: 14.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #point .point__photo-A-salon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 14.5rem;
+    height: 8.5625rem;
+    border: var(--color-medium-gray) solid 1px;
+    background-color: var(--color-white);
+  }
+  #point .point__photo-A-salon-text {
+    color: var(--color-deep-gray);
+    font-size: 1.8144rem;
+    letter-spacing: 0;
+    line-height: .83;
+    font-feature-settings: normal;
+  }
+  #point .point__photo-A-salon-wrapper {
+    display: flex;
+    width: 14.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #point .point__photo-point1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    padding: 0;
+    padding-bottom: 2.6875rem;
+    gap: 2.5625rem;
+  }
 }
 /* #point ここまで */
