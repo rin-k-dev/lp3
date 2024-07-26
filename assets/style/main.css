@@ -1788,7 +1788,7 @@ img {
   text-align: center;
   margin-top: 1.3125rem;
 }
-#point .point__plan-container {
+#point .point__full-body-plan-container {
   width: calc(100% - 2.4375rem);
   margin: 0 auto;
 }
@@ -1970,7 +1970,7 @@ img {
     text-align: center;
     margin-top: 1.8125rem;
   }
-  #point .point__plan-container {
+  #point .point__full-body-plan-container {
     width: calc(100% - 15.4375rem);
     margin: 0 auto;
   }
@@ -2153,7 +2153,7 @@ img {
     text-align: center;
     margin-top: 1.8125rem;
   }
-  #point .point__plan-container {
+  #point .point__full-body-plan-container {
     width: calc(100% - 15.4375rem);
     margin: 0 auto;
   }
@@ -2290,7 +2290,7 @@ img {
   }
 }
 
-#point .point__partial-hair-removal-plan {
+#point .point__subtitle-partial-hair-removal-plan {
   color: var(--color-dark-brown);
   font-size: 1.4375rem;
   line-height: .96;
