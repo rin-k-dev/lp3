@@ -2029,23 +2029,23 @@ img {
   #point .point__full-body-plan-text-side {
     text-align: center;
     position: absolute;
-    top: 32%;
-    left: 50%;
-    transform: translate(-50%, -32%);
+    top: 27%;
+    left: 44%;
+    transform: translate(-44%, -27%);
   }
   #point .point__full-body-plan-text-around-the-belly-button {
     text-align: center;
     position: absolute;
-    top: 37%;
-    left: 50%;
-    transform: translate(-50%, -37%);
+    top: 32%;
+    left: 44%;
+    transform: translate(-44%, -32%);
   }
   #point .point__full-body-plan-text-hand {
     text-align: center;
     position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%, -42%);
+    top: 47%;
+    left: 47.5%;
+    transform: translate(-47.5%, -47%);
   }
   #point .point__full-body-plan-text-V-line {
     text-align: center;
