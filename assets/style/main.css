@@ -2050,30 +2050,30 @@ img {
   #point .point__full-body-plan-text-V-line {
     text-align: center;
     position: absolute;
-    top: 63%;
-    left: 50%;
-    transform: translate(-50%, -63%);
+    top: 61%;
+    left: 41%;
+    transform: translate(-41%, -61%);
   }
   #point .point__full-body-plan-text-I-line {
     text-align: center;
     position: absolute;
-    top: 68%;
-    left: 50%;
-    transform: translate(-50%, -68%);
+    top: 65%;
+    left: 41%;
+    transform: translate(-41%, -65%);
   }
   #point .point__full-body-plan-text-knee {
     text-align: center;
     position: absolute;
-    top: 80%;
-    left: 50%;
-    transform: translate(-50%, -80%);
+    top: 69%;
+    left: 41.5%;
+    transform: translate(-41.5%, -69%);
   }
   #point .point__full-body-plan-text-toe-instep {
     text-align: center;
     position: absolute;
-    top: 85%;
-    left: 50%;
-    transform: translate(-50%, -85%);
+    top: 97%;
+    left: 36.5%;
+    transform: translate(-36.5%, -97%);
   }
   #point .point__full-body-plan-text-knape {
     text-align: center;
