@@ -2289,7 +2289,10 @@ img {
     transform: translate(-106%, -45%);
   }
 }
-
+#point .point__partial-hair-removal-plan-container {
+  width: calc(100% - 1.625rem);
+  margin: 0 auto;
+}
 #point .point__subtitle-partial-hair-removal-plan {
   color: var(--color-dark-brown);
   font-size: 1.4375rem;
