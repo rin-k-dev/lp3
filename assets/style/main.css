@@ -2318,4 +2318,10 @@ img {
   font-weight: 600;
   color: var(--color-pink);
 }
+#point .sp_only.point__partial-hair-removal-plan-photo {
+  display: inline-block;
+}
+#point .pc_only.point__partial-hair-removal-plan-photo {
+  display: none;
+}
 /* #point ここまで */
