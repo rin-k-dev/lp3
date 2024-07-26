@@ -2289,4 +2289,13 @@ img {
     transform: translate(-106%, -45%);
   }
 }
+
+#point .point__partial-hair-removal-plan {
+  color: var(--color-dark-brown);
+  font-size: 1.4375rem;
+  line-height: .96;
+  letter-spacing: 0;
+  text-align: center;
+  margin-top: 3.1875rem;
+}
 /* #point ここまで */
