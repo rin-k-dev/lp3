@@ -1760,15 +1760,6 @@ img {
   text-align: center;
   padding-top: 0.5rem;
 }
-#point .point__text-point2 {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  font-weight: 400;
-  color: var(--color-dark-gray);
-  font-feature-settings: "palt";
-  letter-spacing: 0.04em;
-  text-align: left;
-}
 #point .point__text-point2-wrapper {
   width: 100%;
   background-color: var(--color-white);
@@ -1865,5 +1856,125 @@ img {
   top: 66%;
   left: 102%;
   transform: translate(-102%, -66%);
+}
+
+@media(min-width:768px) {
+  #point .point__box-container2 {
+    width: calc(100% - 15.625rem);
+    max-width: 780px;
+    margin: 0 auto;
+    border: var(--color-pink) solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 3.125rem;
+  }
+  #point .point__subtitle-point2 {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.04;
+    width: 100%;
+    height: 4.625rem;
+    text-align: center;
+    padding-top: 1.1875rem;
+  }
+  #point .point__text-point2-wrapper {
+    width: 100%;
+    background-color: var(--color-white);
+  }
+  #point .point__text-point2-container {
+    width: calc(100% - 5rem);
+    margin: 0 auto;
+    padding-top: 1.3125rem;
+  }
+  #point .point__text-point2 {
+    font-size: 1.3125rem;
+    line-height: 1.61;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    font-feature-settings: normal;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  #point .point__subtitle-full-body-plan {
+    color: var(--color-dark-brown);
+    font-size: 1.5rem;
+    line-height: .96;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 1.8125rem;
+  }
+  #point .point__plan-container {
+    width: calc(100% - 2.4375rem);
+    margin: 0 auto;
+  }
+  #point .point__full-body-photo-container {
+    width: 100%;
+    margin-top: 2rem;
+    position: relative;
+  }
+  #point .sp_only.point__full-body-photo {
+    display: inline-block;
+  }
+  #point .pc_only.point__full-body-photo {
+    display: none;
+  }
+  #point .point__full-body-plan-text-container p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+  #point .point__full-body-plan-text-forehead {
+    text-align: center;
+    position: absolute;
+    top: -1%;
+    left: 50%;
+    transform: translate(-50%, 1%);
+  }
+  #point .point__full-body-plan-text-side {
+    text-align: center;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+  }
+  #point .point__full-body-plan-text-V-line {
+    text-align: center;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -67%);
+  }
+  #point .point__full-body-plan-text-knee {
+    text-align: center;
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -85%);
+  }
+  #point .point__full-body-plan-text-knape {
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 98%;
+    transform: translate(-98%, -12%);
+  }
+  #point .point__full-body-plan-text-back {
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    left: 99%;
+    transform: translate(-99%, -26%);
+  }
+  #point .point__full-body-plan-text-hip {
+    text-align: center;
+    position: absolute;
+    top: 66%;
+    left: 102%;
+    transform: translate(-102%, -66%);
+  }
 }
 /* #point ここまで */
