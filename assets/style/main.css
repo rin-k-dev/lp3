@@ -1995,24 +1995,80 @@ img {
     text-align: center;
     position: absolute;
     top: 3%;
+    left: 43.5%;
+    transform: translate(-43.5%, -3%);
+  }
+  #point .point__full-body-plan-text-cheek {
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    transform: translate(-44%, -8%);
+  }
+  #point .point__full-body-plan-text-faceline {
+    text-align: center;
+    position: absolute;
+    top: 12%;
     left: 43%;
-    transform: translate(-43%, 3%);
+    transform: translate(-43%, -12%);
+  }
+  #point .point__full-body-plan-text-under-the-nose {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    transform: translate(-44%, -15%);
+  }
+  #point .point__full-body-plan-text-chin {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    transform: translate(-44%, -20%);
   }
   #point .point__full-body-plan-text-side {
     text-align: center;
     position: absolute;
-    top: 30%;
-    left: 44%;
-    transform: translate(-44%, -20%);
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%, -32%);
+  }
+  #point .point__full-body-plan-text-around-the-belly-button {
+    text-align: center;
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    transform: translate(-50%, -37%);
+  }
+  #point .point__full-body-plan-text-hand {
+    text-align: center;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -42%);
   }
   #point .point__full-body-plan-text-V-line {
     text-align: center;
     position: absolute;
-    top: 67%;
+    top: 63%;
     left: 50%;
-    transform: translate(-50%, -67%);
+    transform: translate(-50%, -63%);
+  }
+  #point .point__full-body-plan-text-I-line {
+    text-align: center;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -68%);
   }
   #point .point__full-body-plan-text-knee {
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+  }
+  #point .point__full-body-plan-text-toe-instep {
     text-align: center;
     position: absolute;
     top: 85%;
@@ -2036,9 +2092,16 @@ img {
   #point .point__full-body-plan-text-hip {
     text-align: center;
     position: absolute;
-    top: 66%;
-    left: 102%;
-    transform: translate(-102%, -66%);
+    top: 62%;
+    left: 100%;
+    transform: translate(-100%, -62%);
+  }
+  #point .point__full-body-plan-text-O-line {
+    text-align: center;
+    position: absolute;
+    top: 68%;
+    left: 101.5%;
+    transform: translate(-101.5%, -68%);
   }
 }
 /* #point ここまで */
