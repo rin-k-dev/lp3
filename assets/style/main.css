@@ -1375,4 +1375,58 @@ img {
     margin-right: 0.5rem;
   }
 }
+
+@media(min-width:768px) and (max-width:1024px) {
+  #point .point__wrapper {
+    width: 100%;
+    background-color: var(--color-light-pink);
+  }
+  #point .point__container {
+    width: calc(100% - 2.5rem);
+    margin:  0 auto;
+  }
+  #point .point__title {
+    text-align: center;
+    padding-top: 54px;
+  }
+  #point .sp_only.point__logo {
+    display: none;
+  }
+  #point .pc_only.point__logo {
+    display: inline-block;
+    width: 16.4375rem;
+    height: 1.25rem;
+  }
+  #point .point__title-text {
+    font-size: 1.1294rem;
+    line-height: .94;
+    letter-spacing: 0;
+    font-feature-settings: "palt";
+    font-weight: 500;
+    color: var(--color-deep-brown);
+  }
+  #point .point__subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.75rem;
+  }
+  #point .sp_only.point__subtitle-left-star, #point .sp_only.point__subtitle-right-star {
+    display: none
+  }
+  #point .pc_only.point__subtitle-left-star, #point .pc_only.point__subtitle-right-star {
+    display: block;
+    width: 3.0994rem;
+    object-fit: contain;
+  }
+  #point .point__subtitle-text {
+    font-size: 2.625rem;
+    letter-spacing: 0;
+    line-height: .90;
+    font-weight: 700;
+    color: var(--color-pink);
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+  }
+}
 /* #point ここまで */
