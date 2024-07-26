@@ -2333,11 +2333,17 @@ img {
   gap: 0.75rem;
 }
 #point .point__partial-hair-removal-plan-container2 {
-  margin-top: 1.3125rem;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 0.75rem;
+}
+#point .point__partial-hair-removal-plan-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.3125rem;
 }
 /* #point ここまで */
