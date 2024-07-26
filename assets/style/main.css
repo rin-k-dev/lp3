@@ -1804,6 +1804,12 @@ img {
   margin-top: 2rem;
   position: relative;
 }
+#point .sp_only.point__full-body-photo {
+  display: inline-block;
+}
+#point .pc_only.point__full-body-photo {
+  display: none;
+}
 #point .point__full-body-plan-text-container p {
   font-size: 0.75rem;
   font-weight: 400;
