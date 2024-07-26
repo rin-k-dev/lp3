@@ -1430,7 +1430,7 @@ img {
   }
 }
 #point .point__box-container1 {
-  width: 21.875rem;
+  width: 100%;
   margin: 0 auto;
   border: var(--color-pink) solid 1px;
   border-radius: 10px;
@@ -1522,15 +1522,17 @@ img {
   align-items: center;
 }
 #point .point__photo-point1-container {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  padding-left: 1.25rem;
+  justify-content: center;
+  align-items: center;
   padding-top: 0.8125rem;
   padding-bottom: 1.125rem;
   gap: 1.375rem;
 }
 
-@media (min-width:1031px) {
+@media (min-width:1380px) {
   #point .point__box-container1 {
     width: calc(100% - 15.625rem);
     max-width: 780px;
@@ -1636,7 +1638,7 @@ img {
   }
 }
 
-@media (min-width:768px) and (max-width:1230px) {
+@media (min-width:768px) and (max-width:1379px) {
   #point .point__box-container1 {
     width: 100%;
     margin: 0 auto;
@@ -1742,7 +1744,7 @@ img {
 }
 
 #point .point__box-container2 {
-  width: 21.875rem;
+  width: 100%;
   margin: 0 auto;
   border: var(--color-pink) solid 1px;
   border-radius: 10px;
@@ -1759,15 +1761,6 @@ img {
   height: 2.87rem;
   text-align: center;
   padding-top: 0.5rem;
-}
-#point .point__text-point2 {
-  font-size: 0.875rem;
-  line-height: 1.5;
-  font-weight: 400;
-  color: var(--color-dark-gray);
-  font-feature-settings: "palt";
-  letter-spacing: 0.04em;
-  text-align: left;
 }
 #point .point__text-point2-wrapper {
   width: 100%;
@@ -1804,6 +1797,12 @@ img {
   margin-top: 2rem;
   position: relative;
 }
+#point .sp_only.point__full-body-photo {
+  display: inline-block;
+}
+#point .pc_only.point__full-body-photo {
+  display: none;
+}
 #point .point__full-body-plan-text-container p {
   font-size: 0.75rem;
   font-weight: 400;
@@ -1818,21 +1817,77 @@ img {
   left: 50%;
   transform: translate(-50%, 1%);
 }
+#point .point__full-body-plan-text-cheek {
+  text-align: center;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+}
+#point .point__full-body-plan-text-faceline {
+  text-align: center;
+  position: absolute;
+  top: 9%;
+  left: 50%;
+  transform: translate(-50%, -9%);
+}
+#point .point__full-body-plan-text-under-the-nose {
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -15%);
+}
+#point .point__full-body-plan-text-chin {
+  text-align: center;
+  position: absolute;
+  top: 21%;
+  left: 50%;
+  transform: translate(-50%, -21%);
+}
 #point .point__full-body-plan-text-side {
   text-align: center;
   position: absolute;
-  top: 35%;
+  top: 32%;
   left: 50%;
-  transform: translate(-50%, -35%);
+  transform: translate(-50%, -32%);
+}
+#point .point__full-body-plan-text-around-the-belly-button {
+  text-align: center;
+  position: absolute;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -37%);
+}
+#point .point__full-body-plan-text-hand {
+  text-align: center;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -42%);
 }
 #point .point__full-body-plan-text-V-line {
   text-align: center;
   position: absolute;
-  top: 67%;
+  top: 63%;
   left: 50%;
-  transform: translate(-50%, -67%);
+  transform: translate(-50%, -63%);
+}
+#point .point__full-body-plan-text-I-line {
+  text-align: center;
+  position: absolute;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -68%);
 }
 #point .point__full-body-plan-text-knee {
+  text-align: center;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+}
+#point .point__full-body-plan-text-toe-instep {
   text-align: center;
   position: absolute;
   top: 85%;
@@ -1856,8 +1911,382 @@ img {
 #point .point__full-body-plan-text-hip {
   text-align: center;
   position: absolute;
-  top: 66%;
-  left: 102%;
-  transform: translate(-102%, -66%);
+  top: 62%;
+  left: 100%;
+  transform: translate(-100%, -62%);
+}
+#point .point__full-body-plan-text-O-line {
+  text-align: center;
+  position: absolute;
+  top: 68%;
+  left: 101.5%;
+  transform: translate(-101.5%, -68%);
+}
+
+@media(min-width:1380px) {
+  #point .point__box-container2 {
+    width: calc(100% - 15.625rem);
+    max-width: 780px;
+    margin: 0 auto;
+    border: var(--color-pink) solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 3.125rem;
+  }
+  #point .point__subtitle-point2 {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.04;
+    width: 100%;
+    height: 4.625rem;
+    text-align: center;
+    padding-top: 1.1875rem;
+  }
+  #point .point__text-point2-wrapper {
+    width: 100%;
+    background-color: var(--color-white);
+  }
+  #point .point__text-point2-container {
+    width: calc(100% - 5rem);
+    margin: 0 auto;
+    padding-top: 1.3125rem;
+  }
+  #point .point__text-point2 {
+    font-size: 1.3125rem;
+    line-height: 1.61;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    font-feature-settings: normal;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  #point .point__subtitle-full-body-plan {
+    color: var(--color-dark-brown);
+    font-size: 1.5rem;
+    line-height: .96;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 1.8125rem;
+  }
+  #point .point__plan-container {
+    width: calc(100% - 15.4375rem);
+    margin: 0 auto;
+  }
+  #point .point__full-body-photo-container {
+    width: 100%;
+    margin-top: 1.5rem;
+    position: relative;
+  }
+  #point .sp_only.point__full-body-photo {
+    display: none;
+  }
+  #point .pc_only.point__full-body-photo {
+    display: inline-block;
+    width: 100%;
+  }
+  #point .point__full-body-plan-text-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+  #point .point__full-body-plan-text-forehead {
+    text-align: center;
+    position: absolute;
+    top: 3%;
+    left: 43.5%;
+    transform: translate(-43.5%, -3%);
+  }
+  #point .point__full-body-plan-text-cheek {
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    transform: translate(-44%, -8%);
+  }
+  #point .point__full-body-plan-text-faceline {
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 43%;
+    transform: translate(-43%, -12%);
+  }
+  #point .point__full-body-plan-text-under-the-nose {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    transform: translate(-44%, -15%);
+  }
+  #point .point__full-body-plan-text-chin {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    transform: translate(-44%, -20%);
+  }
+  #point .point__full-body-plan-text-side {
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 44%;
+    transform: translate(-44%, -27%);
+  }
+  #point .point__full-body-plan-text-around-the-belly-button {
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 44%;
+    transform: translate(-44%, -32%);
+  }
+  #point .point__full-body-plan-text-hand {
+    text-align: center;
+    position: absolute;
+    top: 47%;
+    left: 47.5%;
+    transform: translate(-47.5%, -47%);
+  }
+  #point .point__full-body-plan-text-V-line {
+    text-align: center;
+    position: absolute;
+    top: 61%;
+    left: 41%;
+    transform: translate(-41%, -61%);
+  }
+  #point .point__full-body-plan-text-I-line {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 41%;
+    transform: translate(-41%, -65%);
+  }
+  #point .point__full-body-plan-text-knee {
+    text-align: center;
+    position: absolute;
+    top: 69%;
+    left: 41.5%;
+    transform: translate(-41.5%, -69%);
+  }
+  #point .point__full-body-plan-text-toe-instep {
+    text-align: center;
+    position: absolute;
+    top: 97%;
+    left: 36.5%;
+    transform: translate(-36.5%, -97%);
+  }
+  #point .point__full-body-plan-text-knape {
+    text-align: center;
+    position: absolute;
+    top: 12.5%;
+    left: 91%;
+    transform: translate(-91%, -12.5%);
+  }
+  #point .point__full-body-plan-text-back {
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    left: 97.5%;
+    transform: translate(-97.5%, -26%);
+  }
+  #point .point__full-body-plan-text-hip {
+    text-align: center;
+    position: absolute;
+    top: 41%;
+    left: 104.5%;
+    transform: translate(-104.5%, -41%);
+  }
+  #point .point__full-body-plan-text-O-line {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 106%;
+    transform: translate(-106%, -45%);
+  }
+}
+
+@media (min-width:768px) and (max-width:1379px) {
+  #point .point__box-container2 {
+    width: 100%;
+    margin: 0 auto;
+    border: var(--color-pink) solid 1px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 3.125rem;
+  }
+  #point .point__subtitle-point2 {
+    background-color: var(--color-pink);
+    color: var(--color-white);
+    font-size: 1.75rem;
+    font-weight: 400;
+    line-height: 1.04;
+    width: 100%;
+    height: 4.625rem;
+    text-align: center;
+    padding-top: 1.1875rem;
+  }
+  #point .point__text-point2-wrapper {
+    width: 100%;
+    background-color: var(--color-white);
+  }
+  #point .point__text-point2-container {
+    width: calc(100% - 5rem);
+    margin: 0 auto;
+    padding-top: 1.3125rem;
+  }
+  #point .point__text-point2 {
+    font-size: 1.3125rem;
+    line-height: 1.61;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    font-feature-settings: normal;
+    letter-spacing: 0;
+    text-align: left;
+  }
+  #point .point__subtitle-full-body-plan {
+    color: var(--color-dark-brown);
+    font-size: 1.5rem;
+    line-height: .96;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 1.8125rem;
+  }
+  #point .point__plan-container {
+    width: calc(100% - 15.4375rem);
+    margin: 0 auto;
+  }
+  #point .point__full-body-photo-container {
+    width: 100%;
+    margin-top: 1.5rem;
+    position: relative;
+  }
+  #point .sp_only.point__full-body-photo {
+    display: none;
+  }
+  #point .pc_only.point__full-body-photo {
+    display: inline-block;
+    width: 100%;
+  }
+  #point .point__full-body-plan-text-container p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-dark-gray);
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+  #point .point__full-body-plan-text-forehead {
+    text-align: center;
+    position: absolute;
+    top: 3%;
+    left: 43.5%;
+    transform: translate(-43.5%, -3%);
+  }
+  #point .point__full-body-plan-text-cheek {
+    text-align: center;
+    position: absolute;
+    top: 8%;
+    left: 44%;
+    transform: translate(-44%, -8%);
+  }
+  #point .point__full-body-plan-text-faceline {
+    text-align: center;
+    position: absolute;
+    top: 12%;
+    left: 43%;
+    transform: translate(-43%, -12%);
+  }
+  #point .point__full-body-plan-text-under-the-nose {
+    text-align: center;
+    position: absolute;
+    top: 15%;
+    left: 44%;
+    transform: translate(-44%, -15%);
+  }
+  #point .point__full-body-plan-text-chin {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 44%;
+    transform: translate(-44%, -20%);
+  }
+  #point .point__full-body-plan-text-side {
+    text-align: center;
+    position: absolute;
+    top: 27%;
+    left: 44%;
+    transform: translate(-44%, -27%);
+  }
+  #point .point__full-body-plan-text-around-the-belly-button {
+    text-align: center;
+    position: absolute;
+    top: 32%;
+    left: 44%;
+    transform: translate(-44%, -32%);
+  }
+  #point .point__full-body-plan-text-hand {
+    text-align: center;
+    position: absolute;
+    top: 47%;
+    left: 47.5%;
+    transform: translate(-47.5%, -47%);
+  }
+  #point .point__full-body-plan-text-V-line {
+    text-align: center;
+    position: absolute;
+    top: 61%;
+    left: 41%;
+    transform: translate(-41%, -61%);
+  }
+  #point .point__full-body-plan-text-I-line {
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 41%;
+    transform: translate(-41%, -65%);
+  }
+  #point .point__full-body-plan-text-knee {
+    text-align: center;
+    position: absolute;
+    top: 69%;
+    left: 41.5%;
+    transform: translate(-41.5%, -69%);
+  }
+  #point .point__full-body-plan-text-toe-instep {
+    text-align: center;
+    position: absolute;
+    top: 97%;
+    left: 36.5%;
+    transform: translate(-36.5%, -97%);
+  }
+  #point .point__full-body-plan-text-knape {
+    text-align: center;
+    position: absolute;
+    top: 12.5%;
+    left: 91%;
+    transform: translate(-91%, -12.5%);
+  }
+  #point .point__full-body-plan-text-back {
+    text-align: center;
+    position: absolute;
+    top: 26%;
+    left: 97.5%;
+    transform: translate(-97.5%, -26%);
+  }
+  #point .point__full-body-plan-text-hip {
+    text-align: center;
+    position: absolute;
+    top: 41%;
+    left: 104.5%;
+    transform: translate(-104.5%, -41%);
+  }
+  #point .point__full-body-plan-text-O-line {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 106%;
+    transform: translate(-106%, -45%);
+  }
 }
 /* #point ここまで */
