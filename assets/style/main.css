@@ -2301,4 +2301,21 @@ img {
   text-align: center;
   margin-top: 3.1875rem;
 }
+#point .point__partial-hair-removal-plan-container1 {
+  margin-top: 2.0625rem;
+}
+#point .point__partial-hair-removal-plan-content {
+  width: 6.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+#point .point__partial-hair-removal-plan-text {
+  font-size: 0.875rem;
+  line-height: .93;
+  font-weight: 600;
+  color: var(--color-pink);
+}
 /* #point ここまで */
