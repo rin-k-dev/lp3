@@ -2820,4 +2820,7 @@ img {
   display: inline-block;
   width: 101%;
 }
+#course .pc_only.course__photo-body-course {
+  display: none;
+}
 /* #course ここまで */
