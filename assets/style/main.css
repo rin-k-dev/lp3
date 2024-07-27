@@ -3174,7 +3174,7 @@ img {
   width: 2.3319rem;
   object-fit: contain;
 }
-#voices .pc_only.voices__title-left-star, #voices .pc_only.voices__subtitle-right-star {
+#voices .pc_only.voices__title-left-star, #voices .pc_only.voices__title-right-star {
   display: none;
 }
 @media (min-width:768px) {
