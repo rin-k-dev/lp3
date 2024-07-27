@@ -3146,3 +3146,36 @@ img {
   }
 }
 /* #course ここまで */
+
+/* #voices ここから */
+#voices .voices__wrapper {
+  width: 100%;
+  background-color: var(--color-light-pink);
+}
+#voices .voices__container {
+  width: calc(100% - 2.5rem);
+  margin:  0 auto;
+  padding-bottom: 1.25rem;
+}
+#voices .voices__title {
+  font-size: 1.9931rem;
+  font-weight: 700;
+  line-height: .94;
+  color: var(--color-pink);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.0625rem;
+  padding-top: 1.5rem;
+}
+#voices .sp_only.voices__title-left-star, #voices .sp_only.voices__title-right-star {
+  display: block;
+  width: 2.3319rem;
+  object-fit: contain;
+}
+#voices .pc_only.voices__title-left-star, #voices .pc_only.voices__subtitle-right-star {
+  display: none;
+}
+
+/* #voices ここまで */
