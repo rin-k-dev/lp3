@@ -3300,7 +3300,8 @@ img {
     object-fit: contain;
   }
   #voices .voices__content-wrapper {
-    margin-top: 2.375rem;
+    margin-top: 1.25rem;
+    padding-bottom: 3.125rem;
   }
   #voices .voices__content-middle, #voices .voices__content-left, #voices .voices__content-right {
     width: 19.375rem;
