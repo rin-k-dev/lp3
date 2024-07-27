@@ -3370,10 +3370,9 @@ img {
     color: var(--color-dark-gray);
   }
   #voices .slick-list {
-    width: calc(100% - 30.3125rem );
-    max-width: 955px;
+    width: 60.3125rem;
     margin: 0 auto;
-    overflow: visible;
+    overflow: hidden;
     display: block;
   }
   #voices .slick-track {
