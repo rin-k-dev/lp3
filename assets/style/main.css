@@ -3305,7 +3305,7 @@ img {
   }
   #voices .voices__content-middle, #voices .voices__content-left, #voices .voices__content-right {
     width: 19.375rem;
-    margin: 0 auto;
+    margin: 0;
     border: var(--color-pink) solid 1px;
     border-radius: 10px;
     overflow: hidden;
@@ -3358,6 +3358,43 @@ img {
     font-weight: 400;
     color: var(--color-dark-gray);
   }
+  #voices .slick-list {
+    width: calc(100% - 30.3125rem );
+    margin: 0 auto;
+    overflow: visible;
+  }
+  #voices .slick-track {
+    display: flex;
+    flex-direction: row;
+    gap: 0.9375rem;
 
+  }
+  #voices .voices__dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25rem;
+    gap: 0.9375rem;
+  }
+  #voices .voices__dots li {
+    font-size: 0;
+  }
+  #voices .voices__dots li::before {
+    display: block;
+    content: '';
+    background-image: url('../image/voices_dots_nonactive.png');
+    width: 15px;
+    height: 15px;
+  }
+  #voices .voices__dots li.slick-active::before {
+    display: block;
+    content: '';
+    background-image: url('../image/voices_dots_active.png');
+    width: 15px;
+    height: 15px;
+  }
+  #voices .slick-dotted.slick-slider {
+    margin-bottom: 0;
+  }
 }
 /* #voices ここまで */
