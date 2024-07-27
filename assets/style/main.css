@@ -3180,7 +3180,7 @@ img {
 #voices .voices__content-wrapper {
   margin-top: 1.4375rem;
 }
-#voices .voices__content-middle {
+#voices .voices__content-middle, #voices .voices__content-left, #voices .voices__content-right {
   width: 19.375rem;
   margin: 0 auto;
   border: var(--color-pink) solid 1px;
@@ -3268,7 +3268,7 @@ img {
   #voices .voices__content-wrapper {
     margin-top: 2.375rem;
   }
-  #voices .voices__content-middle {
+  #voices .voices__content-middle, #voices .voices__content-left, #voices .voices__content-right {
     width: 19.375rem;
     margin: 0 auto;
     border: var(--color-pink) solid 1px;
