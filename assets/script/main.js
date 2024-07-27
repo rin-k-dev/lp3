@@ -5,7 +5,7 @@ $(document).ready(function(){
     slidesToScroll: 1,
     centerMode: false,
     autoplay: false,
-    infinite: true,
+    infinite: false,
     speed: 300,
     variableWidth: true,
     dots: true,
@@ -28,6 +28,7 @@ $(document).ready(function(){
           slidesToShow: 1,
           slidesToScroll: 1,
           centerMode: true,
+          infinite: true,
           variableWidth: true
         }
       }
