@@ -3694,3 +3694,30 @@ img {
   }
 }
 /* #free-trial-3 ここまで */
+
+/* #footer ここから */
+#footer .footer__wrapper {
+  width: 100%;
+  background-color: var(--color-pink);
+}
+#footer .footer__container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.875rem;
+  padding-bottom: 0.6875rem;
+}
+#footer .footer__link {
+  cursor: pointer;
+  transition: all .3s ease-out;
+}
+#footer .footer__link:hover {
+  opacity: .7;
+}
+#footer .sp_only.footer__logo {
+  display: inline-block;
+  width: 4.5625rem;
+  object-fit: contain;
+}
+/* #footer ここまで */
