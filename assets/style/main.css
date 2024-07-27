@@ -2781,6 +2781,9 @@ img {
 }
 #course .course__content-wrapper {
   margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.9375rem;
 }
 #course .course__body-course-container {
   width: 100%;
@@ -2796,7 +2799,7 @@ img {
   line-height: .94;
   height: 2.9375rem;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 0.9375rem;
 }
 #course .course__content-body-course {
   width: calc(100% - 2.5625rem);
@@ -2821,6 +2824,48 @@ img {
   width: 101%;
 }
 #course .pc_only.course__photo-body-course {
+  display: none;
+}
+
+#course .course__facial-course-container {
+  width: 100%;
+  border: var(--color-pink) solid 1px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+#course .course__subtitle-facial-course {
+  background-color: var(--color-light-pink);
+  color: var(--color-pink);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: .94;
+  height: 2.9375rem;
+  text-align: center;
+  padding-top: 0.9375rem;
+}
+#course .course__content-facial-course {
+  width: calc(100% - 2.5625rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem;
+  padding-bottom: 1.0625rem;
+}
+#course .course__text-facial-course {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: var(--color-deep-gray);
+  text-align: left;
+  margin-top: 0.875rem;
+}
+#course .sp_only.course__photo-facial-course {
+  display: inline-block;
+  width: 101%;
+}
+#course .pc_only.course__photo-facial-course {
   display: none;
 }
 /* #course ここまで */
