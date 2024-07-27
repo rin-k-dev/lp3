@@ -3246,6 +3246,12 @@ img {
   flex-direction: row;
   gap: 0.9375rem;
 }
+#voices .slick-list {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  display: block;
+}
 #voices .voices__dots {
   display: flex;
   justify-content: center;
@@ -3374,7 +3380,6 @@ img {
     display: flex;
     flex-direction: row;
     gap: 0.9375rem;
-
   }
   #voices .voices__dots {
     display: flex;
@@ -3498,7 +3503,7 @@ img {
   #voices .slick-list {
     width: 100%;
     margin: 0 auto;
-    overflow: visible;
+    overflow: hidden;
     display: block;
   }
   #voices .slick-track {
