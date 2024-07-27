@@ -3212,6 +3212,9 @@ img {
   width: 5.375rem;
   object-fit: contain;
 }
+#voices .pc_only.voices__content-body-photo {
+  display: none;
+}
 #voices .voices__content-body-text {
   display: flex;
   flex-direction: column;
