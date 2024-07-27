@@ -1469,6 +1469,8 @@ img {
   padding-top: 1rem;
 }
 #point .point__photo-KBL-container {
+  cursor: pointer;
+  transition: all .3s ease-out;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1476,6 +1478,9 @@ img {
   width: 8.9375rem;
   height: 5.3125rem;
   border: var(--color-pink) solid 1px;
+}
+#point .point__photo-KBL-container :hover {
+  opacity: .7;
 }
 #point .sp_only.point__photo-KBL {
   display: inline-block;
