@@ -3177,5 +3177,36 @@ img {
 #voices .pc_only.voices__title-left-star, #voices .pc_only.voices__subtitle-right-star {
   display: none;
 }
-
+@media (min-width:768px) {
+  #voices .voices__wrapper {
+    width: 100%;
+    background-color: var(--color-light-pink);
+  }
+  #voices .voices__container {
+    width: calc(100% - 25.625rem);
+    max-width: 1030px;
+    margin:  0 auto;
+    padding-bottom: 1.25rem;
+  }
+  #voices .voices__title {
+    font-size: 2.6069rem;
+    font-weight: 700;
+    line-height: .94;
+    color: var(--color-pink);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.625rem;
+    padding-top: 2.25rem;
+  }
+  #voices .sp_only.voices__title-left-star, #voices .sp_only.voices__title-right-star {
+    display: none;
+  }
+  #voices .pc_only.voices__title-left-star, #voices .pc_only.voices__title-right-star {
+    display: block;
+    width: 3.0938rem;
+    object-fit: contain;
+  }
+}
 /* #voices ここまで */
