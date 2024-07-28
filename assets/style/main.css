@@ -742,7 +742,7 @@ img {
   padding-top: 0.25rem;
 }
 
-#present .present_text-present {
+#present .present__text-present {
   display: inline-block;
   text-align: center;
   font-size: 1.6875rem;
@@ -757,7 +757,7 @@ img {
   padding-top: 0.6875rem;
   overflow: hidden;
 }
-#present .present_text-present .present__text-three {
+#present .present__text-present .present__text-three {
   font-size: 2.625rem;
   line-height: .76;
   letter-spacing: 0;
@@ -836,7 +836,7 @@ img {
     padding-left: 0;
     padding-top: 0.5rem;
   }
-  #present .present_text-present {
+  #present .present__text-present {
     font-size: 2.7294rem;
     line-height: .82;
     letter-spacing: 0;
@@ -849,7 +849,7 @@ img {
     padding-top: 1.125rem;
     overflow: hidden;
   }
-  #present .present_text-present .present__text-three {
+  #present .present__text-present .present__text-three {
     font-size: 4.2456rem;
     line-height: .78;
     letter-spacing: 0;
@@ -932,7 +932,7 @@ img {
     padding-left: 0;
     padding-top: 0.5625rem;
   }
-  #present .present_text-present {
+  #present .present__text-present {
     font-size: 2.7294rem;
     line-height: .82;
     letter-spacing: 0;
@@ -948,7 +948,7 @@ img {
     padding-top: 1.5rem;
     overflow: hidden;
   }
-  #present .present_text-present .present__text-three {
+  #present .present__text-present .present__text-three {
     font-size: 4.2456rem;
     line-height: .78;
     letter-spacing: 0;
